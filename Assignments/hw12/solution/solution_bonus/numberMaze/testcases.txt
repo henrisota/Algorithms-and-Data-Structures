@@ -1,0 +1,19 @@
+Input is given in this order:
+- size of the puzzle board (nodes)
+- choice of generating a random puzzle board or inputting one (1 / 0)
+
+// In case of choosing to input one
+(For each field (node))
+    - step size (representing edge/s to the possible node/s in the 4 directions)
+
+First Test (visualized in the puzzle board)
+(COPY FROM HERE)
+5 0
+3 1 1 3 3
+1 3 2 3 3
+2 1 2 4 2
+2 4 3 2 3
+3 4 2 2 1
+
+(COPY UNTIL HERE)
+- Output should return 5
